@@ -306,7 +306,7 @@ https://gist.github.com/MokusM/af7febe53d28c84294877cd2e65912a0
   </ul>
   <div class="box-tab-cont">
     <div class="tab-cont" id="tab_1">...</div>
-    <div class="tab-cont hide" id="tab_2">...</div>
+    <div class="tab-cont hide-tab" id="tab_2">...</div>
   </div>
 </div>
 ```
