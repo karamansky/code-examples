@@ -14,7 +14,6 @@
   </ul>
 </div> 
 ```
-https://gist.github.com/MokusM/87ba7f6d31424cad745e04fe834c1749
 
 ### 2. Элементы форм
 
@@ -39,7 +38,7 @@ https://gist.github.com/MokusM/87ba7f6d31424cad745e04fe834c1749
   </form>
 </div>
 ```
-https://gist.github.com/MokusM/1fedb0120d3eb29784f1009e435421ea<br>
+<br>
 В текстовых полях параметр type может принимать следующие значения:
 text, password, email, number, search, tel, url
 
@@ -61,7 +60,6 @@ text, password, email, number, search, tel, url
   </li>
 </ul>
 ```
-https://gist.github.com/MokusM/932720bb9125e087d9b66736cfef01d0 
 
 #### Списки с чекбоксами:
 
@@ -81,7 +79,6 @@ https://gist.github.com/MokusM/932720bb9125e087d9b66736cfef01d0
  </li>
 </ul> 
 ```
-https://gist.github.com/MokusM/e7f5b6665956c17f1c6624e8d26d545c
 
 ### 3.Основное меню: 
 
@@ -94,7 +91,6 @@ https://gist.github.com/MokusM/e7f5b6665956c17f1c6624e8d26d545c
   </ul>
 </nav>
 ```
-https://gist.github.com/MokusM/3af9f8f62c0fd7ee35e784d8f88d7d6c
 
 ### 4. Кнопки:
 
@@ -146,7 +142,6 @@ button.button, input.button{ padding-top: 0px!important;}
   </ul>
 </div>
 ```
-https://gist.github.com/MokusM/77227bdb56f9de05cd4e60ed7e6f519b
 
 ### 6. Статьи:
 
@@ -160,7 +155,6 @@ https://gist.github.com/MokusM/77227bdb56f9de05cd4e60ed7e6f519b
   </article>
 </div>
 ``` 
-https://gist.github.com/MokusM/498a755a3dc77fb9506a875c68ac7438
 
 ### 7. Новости:
 
@@ -174,7 +168,6 @@ https://gist.github.com/MokusM/498a755a3dc77fb9506a875c68ac7438
   </article>
 </div>
 ``` 
-https://gist.github.com/MokusM/1ee515b829e97fb2b9069d495c4aee60
 
 ### 8. Список продуктов:
 
@@ -192,7 +185,6 @@ https://gist.github.com/MokusM/1ee515b829e97fb2b9069d495c4aee60
   </li>
 </ul>
 ``` 
-https://gist.github.com/MokusM/dfee10d275f6605189e47c4a41635971
 
 ### 9. Хлебные крошки: 
 
@@ -206,7 +198,6 @@ https://gist.github.com/MokusM/dfee10d275f6605189e47c4a41635971
   </ul>
 </div>
 ``` 
-https://gist.github.com/MokusM/046ed3235d8e1d2696cd7aef5056da86
 
 ### 10. Пагинация: 
 
@@ -232,7 +223,6 @@ https://gist.github.com/MokusM/046ed3235d8e1d2696cd7aef5056da86
   </ul>
 </div>
 ``` 
-https://gist.github.com/MokusM/5d44b1222d3156c8e9b487e94e760ac1 
 
 ### 11. Таблицы (если верстаются без использования table):
 
@@ -251,7 +241,6 @@ https://gist.github.com/MokusM/5d44b1222d3156c8e9b487e94e760ac1
 </ul>
 ``` 
 в стилях колонки прописываются либо display:table-cell (тогда li это display:table-row, а ul - display:table), либо display:inline-block. либо делаем на flex<br>
-https://gist.github.com/MokusM/b6f936c3b79e381196a751828e1234f4
 
 ### 12. Попапы:
 
@@ -289,7 +278,6 @@ https://gist.github.com/MokusM/b6f936c3b79e381196a751828e1234f4
   padding:35px;
 }
 ```
-https://gist.github.com/MokusM/af7febe53d28c84294877cd2e65912a0
 
 ### 13. Табы: 
 
@@ -334,7 +322,6 @@ $('.tabs li a').click(function() {
   return false;
 });
 ```
-https://gist.github.com/MokusM/e820753631e69ee6a4a7075d25dee853
 
 ## Примеры кода полезных скриптов:
 
@@ -360,7 +347,6 @@ if($('.fixed-block').length){
   });
 };
 ```
-https://gist.github.com/MokusM/278becc893aa9dd157c0579d42100727
 
 #### 2. Если нужно плавно проскролить к id: 
 
@@ -373,7 +359,6 @@ $('.js-scroll').click(function() {
   return false;
 });
 ```
-https://gist.github.com/MokusM/7496c238fdb5bb9f729b7fbf938bdeeb
 
 #### 3. Если нужно плавно проскролить к верху страницы:
 
@@ -383,7 +368,6 @@ $(".js-top").click(function() {
   return false;
 }); 
 ```
-https://gist.github.com/MokusM/60de19f932cc6a9948e39dc4a788f21b
 
 #### 4. Если нужно свернуть/развернуть блок с заменой текста в кнопке:
 
@@ -396,7 +380,6 @@ $(".js-toggle").toggle(function() {
   $(this).text("Развернуть");
 }); 
 ```
-https://gist.github.com/MokusM/9a71d05dac4197ec99a9f165fbf67680
 
 #### 5. Если нужно для ретины скриптом подменять url  в картинке:
 
@@ -414,7 +397,6 @@ if($('.js-img').length) {
   }        
 } 
 ```
-https://gist.github.com/MokusM/6ade310f461d80ba978c292a9266c472
 
 #### 6. Если нужно по клику увеличивать или уменьшать число счётчике:
 
@@ -447,7 +429,6 @@ $('.counter__link_next').click(function() {
   return false;
 });
 ```
-https://gist.github.com/MokusM/671aebc4e3f71b18454d3e4d855462d7
 
 #### 7. По клику вне блока закрывать его:
 
@@ -458,7 +439,6 @@ $(document).on('touchstart click', function(e) {
   }
 });
 ```
-https://gist.github.com/MokusM/717a2759103afbd0225ee96fb0421e2a
 
 #### 8. Инициализация Яндекс карты:
 
@@ -485,7 +465,6 @@ if ($('#map').length) {
   });
 };
 ```
-https://gist.github.com/MokusM/6f8900b132b7c69ac8f8b2fb045abe90
 
 #### 9. Инициализация Гугл карты, стилизованная:
 
@@ -501,7 +480,6 @@ if (viewport_wid > 767) {
   $('.col-country').detach().insertAfter($('.customers-map'));
 }
 ```
-https://gist.github.com/MokusM/3f742702296e3684fe2630638e6d03aa 
 
 
 ## Слова, часто используемые в CSS-классах
